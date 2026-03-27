@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("rf (3).pkl")
+model = joblib.load("rf_model.pkl")
 
 st.title("AQI Prediction App 🌍")
 
